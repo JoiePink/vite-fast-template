@@ -15,7 +15,7 @@ Technology Stack: {Vue} {Vite} {Markdown} {UnoCSS} {Iconify} {TypeScript}
 
 Special:
 
-- **快速启动**：基于 `Vite + Vue 3 + Markdown` 的项目脚手架，开箱即用，适合个人/团队快速搭建博客或文档站。
+- **快速启动**：基于 `Vite + Vue 3 + Markdown` 的项目脚手架，开箱即用，适合个人/团队快速搭建 `Vite` 项目。
 - **VueUse 自动导入**：内置 `VueUse`，常用 hooks 可自动导入，无需手动 `import`，让组合式 API 的书写更加顺手。
 - **文件即路由**：集成 `vue-router`，`pages` 目录下的 `.vue` / `.md` 文件会自动生成路由，零配置即可使用。
 - **原子化样式**：内置 `UnoCSS + Iconify`，通过原子类名与图标类名即可完成大部分样式与图标开发。
