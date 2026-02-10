@@ -22,6 +22,7 @@ import Inspect from 'vite-plugin-inspect'
 import Exclude from 'vite-plugin-optimize-exclude'
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/',
   resolve: {
     alias: [
       { find: '~/', replacement: `${resolve(__dirname, 'src')}/` },
