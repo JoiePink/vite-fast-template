@@ -23,8 +23,10 @@
             </button>
         </div>
         <img
-            :src="isDark ? '/logo-dark.svg' : '/logo.svg'"
+            :src="logoSrc"
             alt="logo"
+            loading="eager"
+            fetchpriority="high"
             class="w-60 h-60 sm:w-60 sm:h-60 lg:w-100 lg:h-100 max-w-full object-contain" />
 
         <div class="mt-6 md:mt-0 max-w-xl w-full">
@@ -69,6 +71,11 @@ const colorMode = useColorMode({
 })
 
 const isDark = computed(() => colorMode.value === 'dark')
+
+const logoSrc = computed(() => {
+    // 确保路径始终正确
+    return isDark.value ? '/logo-dark.svg' : '/logo.svg'
+})
 
 const toggleTheme = () => {
     colorMode.value = isDark.value ? 'light' : 'dark'
