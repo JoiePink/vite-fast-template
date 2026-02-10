@@ -23,7 +23,7 @@
             </button>
         </div>
         <img
-            :src="isDark ? '/public/logo-dark.svg' : '/public/logo.svg'"
+            :src="isDark ? '/logo-dark.svg' : '/logo.svg'"
             alt="logo"
             class="w-60 h-60 sm:w-60 sm:h-60 lg:w-100 lg:h-100 max-w-full object-contain" />
 
