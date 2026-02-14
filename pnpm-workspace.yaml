@@ -56,6 +56,11 @@ catalogs:
         markdown-it-github-mention-card: ^1.0.0
         # 自动导入图标组件
         unplugin-icons: ^23.0.1
+        # 文件系统操作
+        fs-extra: ^11.3.3
+        # 解析 Markdown frontmatter
+        gray-matter: ^4.0.3
+        '@types/fs-extra': ^11.0.4
 
     # UI 框架、组件库
     ui-framework: {}
